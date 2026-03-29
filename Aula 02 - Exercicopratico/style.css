@@ -1,19 +1,15 @@
 *{
-    /* Todos os elementos sem margem e espaçamento */
     margin: 0;
     padding: 0;
 }
 
-/* Estilos gerais */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    /*Espaçamento entre linhas */
     line-height: 1.6;
     background-color: aliceblue;
     color: #333
 }
 
-/* Estido do cabeçalho */
 header{
     background-color: rgb(83, 233, 188);
     color: white;
@@ -28,7 +24,6 @@ header p{
     margin-top: 50;
 }
 
-/* Menu de navegação */
 nav{
     background-color:rgb(59, 201, 158) ;
     padding: 10px;
@@ -37,75 +32,175 @@ nav{
     text-align: center;
  }
  nav ul li{
-    /* Deixa na horizontal */
     display: inline;
     margin: 0 15px;
  }
 
  nav ul li a{
     color: white;
-    /* Remove o sublinhado do item */
     text-decoration: none;
     font-weight: bold;
  }
 
- /* Quando o usuário passar o mouse por cima */
+
  nav ul li a:hover{
     text-decoration: underline;
     color:#333
  }
 
- /* Linhas horizontais */
+
  hr{
     height: 1px;
     background-color: aquamarine;
     margin: 30px 0;
  }
 
- /* Conteúdo principal */
- main{
-    padding: 20px;
- }
 
- /* Seções */
+.secao1{
+    background-image: url(./imagens/section.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imagens/section.jpg') no-repeat center / cover;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+section{
+    margin-left: 150px;
+}
+
+.secao1 h2{
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
  section h2{
-    font-size: 1.8em ;
+    font-size: 4rem ;
     margin-bottom: 15px;
     color: rgb(83, 233, 188);
+    padding-left: 50px;
  }
 
- /* Artigo */
- article{
-    background-color: white;
-    border-radius: 15px;
-    /* Espaçamento interno */
-    padding: 15px;
-    /* Margem inferior */
+
+ .artigo1{
+    background-image: url(./imagens/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imagens/1.jpg') no-repeat center / cover;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    border: 0px;
     margin-bottom: 15px;
-    border-left: 5px solid rgb(83, 233, 188);
+    padding-top: 60px;
+    padding-left: 70px;
  }
+ .artigo2{
+
+    background-image: url(./imagens/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imagens/2.jpg') no-repeat center / cover;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    margin-bottom: 15px;
+    padding-top: 60px;
+    padding-left: 70px;
+ }
+ .artigo3{
+    background-image: url(./imagens/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imagens/3.jpg') no-repeat center / cover;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    padding-top: 60px;
+    padding-left: 70px;
+ }
+
+ section div{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(83, 233, 188);
+    border-radius: 4px;
+    margin-bottom: 60px;
+ }
+
+ article p{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    font-weight: 300;
+    justify-content: center;
+ }
+
 article h3{
-    color: #333;
-    margin-bottom: 8px;
-}
-article p{
-    color: #555;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
 }
 
-/* Anunci(ASIDE) */
+article a{
+    display: inline-block;
+    background-color: rgb(83, 233, 188);
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+article a:hover{
+    background-color: rgb(56, 160, 129);
+}
+
+
 aside{
+    margin-left: 150px;
     background-color: #fff1f1;
     padding: 15px;
     border-radius: 15px;
-    border: 1px solid red;
-    border-left: 5px solid red ;
+    border-left: 10px solid red ;
 }
 aside h3{
     margin-bottom: 10px;
     color: red;
 }
+aside ul li {
+    text-decoration: none;
+    margin-left: 30px;
+}
 
-/* Rodapé */
+
 footer{
     background-color: rgb(83, 233, 188);
     color: white;
