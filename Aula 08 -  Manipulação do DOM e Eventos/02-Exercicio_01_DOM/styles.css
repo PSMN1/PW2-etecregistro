@@ -2,21 +2,27 @@ body{
     background-color: white;
     color: 'black';
 }
-#red{
-    background-color: #f5f5f5;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.semaforo{
+
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
 }
-#yellow{
-    background-color: #f5f5f5;
+.aura{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: 10px;
 }
-#blue{
-    background-color: #f5f5f5;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.red{
+    background-color: gray;
+}
+.yellow{
+    background-color: gray;
+}
+.green{
+    background-color: gray;
 }
