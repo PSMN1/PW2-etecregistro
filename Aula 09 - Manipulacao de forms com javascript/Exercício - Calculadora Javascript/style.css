@@ -1,0 +1,33 @@
+#contas{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+#resultado{
+    height: 30px;
+    width: 100px;
+    background-color: #0101;
+    border-radius: 8px;
+    border: 1px solid #000000
+}
+#calculadora{
+    height: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    width:100px;
+    background-color: #b8b8b8;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+#num{
+    border-radius: 4px;
+    padding: 1px;
+    text-align: center;
+    border: 1px solid #000;
+}
