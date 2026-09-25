@@ -12,7 +12,8 @@
     width: 100px;
     background-color: #0101;
     border-radius: 8px;
-    border: 1px solid #000000
+    border: 1px solid #000000;
+    text-align: end;
 }
 #calculadora{
     height: auto;
@@ -24,10 +25,15 @@
     flex-direction: column;
     border: 1px solid #000;
     border-radius: 10px;
+    align-items: center;
 }
 #num{
     border-radius: 4px;
     padding: 1px;
     text-align: center;
     border: 1px solid #000;
+}
+button{
+    all: unset;
+    cursor: pointer;
 }
